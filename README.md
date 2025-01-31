@@ -87,6 +87,6 @@ Each nurse is assigned a **unique ID (0-31)** and belongs to one of the followin
 Clone the repository and install dependencies:  
 ```bash
 git clone https://github.com/pirsarandib/nurse_scheduling_problem
-cd nurse-scheduling
+cd nurse_scheduling_problem
 pip install pulp  
 ```
