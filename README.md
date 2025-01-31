@@ -27,9 +27,9 @@ The output is **JSON-formatted** for easy integration into hospital management s
 ## 📅 Problem Description  
 
 The schedule assigns **nurses** to three daily shifts:  
-- 🏙 **Day Shift** 
-- 🌆 **Evening Shift** 
-- 🌙 **Night Shift**
+-  **Day Shift** 
+-  **Evening Shift** 
+-  **Night Shift**
 
 Each nurse is assigned a **unique ID (0-31)** and belongs to one of the following roles:  
 - **CNL (Clinical Nurse Leader)** → ID **0**  
@@ -46,14 +46,7 @@ Each nurse is assigned a **unique ID (0-31)** and belongs to one of the followin
 
 ---
 
-## ⚡ Installation  
 
-Clone the repository and install dependencies:  
-```bash
-git clone https://github.com/pirsarandib/nurse_scheduling_problem
-cd nurse-scheduling
-pip install pulp  
-```
 ## Output Format
 - The script generates a JSON schedule with:
 - **Date and weekday**
@@ -87,4 +80,13 @@ pip install pulp
         "cnl_nurse": {"id": null, "role": "None"}
     }
 ]
+```
+
+## ⚡ Installation  
+
+Clone the repository and install dependencies:  
+```bash
+git clone https://github.com/pirsarandib/nurse_scheduling_problem
+cd nurse-scheduling
+pip install pulp  
 ```
