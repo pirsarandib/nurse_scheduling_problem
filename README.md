@@ -56,10 +56,10 @@ pip install pulp
 ```
 ## Output Format
 - The script generates a JSON schedule with:
--	•	Date and weekday
--	•	Shift type (day, evening, night)
--	•	Assigned nurses (ID and role)
--	•	Head Nurse and CNL assignments
+-		Date and weekday
+-		Shift type (day, evening, night)
+-		Assigned nurses (ID and role)
+-		Head Nurse and CNL assignments
 
 ###Example Output
 [
